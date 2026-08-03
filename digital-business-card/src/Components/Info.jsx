@@ -6,7 +6,7 @@ export default function Info() {
             <div className="info-text">
                 <h1> Noah Olmos</h1>
                 <h2> Frontend Developer & Designer </h2>
-                <p> noaholmos.website(wip) </p>
+                <p> noaholmos.websitewip </p>
             </div>
 
             <div className="info-buttons">
