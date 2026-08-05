@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div className="about">
             <h1> About </h1>
-            <p> I am Noah, an aspiring frontend developer and designer with a passion for creating beautiful and functional user experiences. I have experience in HTML, CSS, JavaScript, and React, and I am always looking to learn new technologies and improve my skills. </p>
+            <p> Hi, I'm Noah, a sophomore at the University of Illinois Chicago majoring in Computer Science + Design. As an aspiring developer & designer, I am always looking for opporunties to explore this intersection and build meaningful digital solutions. I have experience in HTML, CSS, JavaScript, and React, and I am always looking to learn new technologies and improve my skills. </p>
         </div>
     )
 }

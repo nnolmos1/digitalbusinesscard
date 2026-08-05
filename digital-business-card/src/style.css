@@ -49,6 +49,10 @@ body {
     color: #F5F5F5;
 }
 
+.info {
+    margin-bottom: 3em;
+}
+
 button {
     border: none;
     background: none;
@@ -59,7 +63,6 @@ button {
     justify-content: space-around;
 
 }
-
 
 .email-button {
     background-color: white;
@@ -101,7 +104,7 @@ button {
 }
 
 .interests {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .footer {
