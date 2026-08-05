@@ -18,7 +18,6 @@ body {
     background-color: #1A1B21;
     max-width: 317px;
     width: 100%;
-    min-height: 100vh;
     margin: 0 auto;
 }
 
@@ -76,6 +75,11 @@ button {
     border-radius: 0.25em;
     max-width: 115px;
     width: 100%;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.email-button:hover, .linkedin-button:hover {
+    transform: scale(1.05);
 }
 
 .linkedin-button button {
@@ -96,6 +100,10 @@ button {
     color: #DCDCDC;
 }
 
+.interests {
+    margin-bottom: 2em;
+}
+
 .footer {
     background-color: #161619;
     height: 64px;
@@ -106,5 +114,5 @@ button {
     font-size: 0.64rem;
     line-height: 150%;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 2.25em;
 }
