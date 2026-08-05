@@ -7,6 +7,11 @@ body {
     font-family: Inter, sans-serif;
     background-color: #23252C;
     color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .container {
@@ -18,6 +23,88 @@ body {
 }
 
 .info-img {
+    max-width: 317px; 
     width: 100%;
+    max-height: 317px;
     height: 100%;
+}
+
+.info-text, .info-buttons, .about, .interests, .footer {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.info-text h1 {
+    font-size: 1.5625rem;
+    margin: 1em 0 0.25em 0;
+}
+
+.info-text h2 {
+    font-size: 0.8rem;
+    color: #F3BF99;
+    margin: 0;
+}
+.info-text p {
+    font-size: 0.64rem;
+    margin: 1em 0;
+    color: #F5F5F5;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.info-buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.email-button {
+    background-color: white;
+}
+
+.linkedin-button {
+    background-color: #5093E2;
+}
+
+.email-button, .linkedin-button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    max-width: 115px;
+    width: 100%;
+}
+
+.linkedin-button button {
+    color: white;
+}
+
+.about h1, .interests h1 {
+    margin-top: 2em;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.about p, .interests p {
+    font-size: 0.64rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.footer {
+    background-color: #161619;
+    height: 64px;
+    color: #DCDCDC;
+}
+
+.footer p {
+    font-size: 0.64rem;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 1em;
 }
